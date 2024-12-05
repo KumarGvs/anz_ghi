@@ -1,0 +1,13 @@
+name: Runners
+on: workflow_dispatch
+jobs:
+    unix-job:
+        name: Running on Windows
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Hello World unix"
+    mac-job:
+        name: Running on Windows
+        runs-on: mac-latest
+        steps:
+            - run: echo "Hello World unix"
