@@ -1,8 +1,0 @@
-name: windowsworklfow
-on: push
-jobs:
-    windows-job:
-        name: Running on Windows
-        runs-on: windows_latest
-        steps:
-            - run: echo "Hello World Windows"
